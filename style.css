@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#nav{
+    /* background-color: red; */
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: -100;
+    font-size: 13px;
+    padding-right: 20px;
+}
+#nav h3{
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+#nav i{
+    color: white;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 50%;
+    padding: 7px;
+}
+#center{
+    /* background-color: red; */
+    width: 100%;
+    height: 40%;
+}
+#center h1{
+    font-size: 80px;
+    padding: 40px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bottom{
+    /* background-color: green; */
+    height: 40%;
+    padding: 42px;
+    display: flex;
+}
+#bottom-left{
+    /* background-color: yellow; */
+    width: 39%;
+    font-size: 23px;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bottom-right{
+    /* background-color: #d50aa2; */
+    width: 30%;
+    height: 100%;
+    margin-left: 43%;
+    /* display: grid; */
+    margin-top: 30px;
+}
+#bottom-right1{
+    font-size: 25px;
+    padding: 25px 0px;
+    height: 33.3%;
+    /* background-color: #f30606; */
+    border-top:2px solid black ;
+    display: flex;
+    justify-content: space-between;
+}
+#bottom-right1 a{
+    color: black;
+}
+#bottom-right2{
+    padding: 25px 0px;
+    height: 33.3%;
+    /* background-color: #4d4545; */
+    border-top:2px solid black ;
+    font-size: 25px;
+
+}
+#bottom-right2 h3{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#bottom-right3{
+    padding: 25px 0px;
+    /* background-color: #9a1717; */
+    height: 33.3%;
+    border-top:2px solid black ;
+    font-size: 30px;
+
+}
+#bottom-right3 h3{
+   font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#footer{
+    width: 100%;
+    height: 30%;
+    background-color: red;
+    /* object-fit: fill; */
+}
+#footer img{
+    object-position: calc(40%);
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
